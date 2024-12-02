@@ -13,7 +13,7 @@ for (let i = 0; i < tableOBJ.length; i++) {
 
     let htmlStr = "";
     [].forEach.call(document.querySelectorAll("tr[data-row='" + i + "'] > td"), (e) => {
-        htmlStr = htmlStr + e.innerHTML.replace(" ", "").toLowerCase();
+        htmlStr = htmlStr + e.innerHTML.toLowerCase();
     });
 
 
